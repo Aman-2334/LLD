@@ -12,11 +12,10 @@ SUB CLASS_2 -> Class Bike2 inherits Vehicle and needs the off_road drive() funct
 SUB CLASS_3 -> Class Bike3 inherits Vehicle and needs the off_road drive() function same as Bike2
 
 ## SOLUTION
-Create a interface drive_capability which has a function drive()
-Make for any new drive capability make a class which implements drive capability interface
-ex.
-Class Off_road_drive implements drive_capability{}
-Class Normal_drive implements drive_capability{}
-
-Create a has-a relationship between the Base Class and drive_capability interface and let the subclass decide
+- Create a interface drive_capability which has a function drive()
+- Make for any new drive capability make a class which implements drive capability interface
+- Example.
+  - Class Off_road_drive implements drive_capability{}
+  - Class Normal_drive implements drive_capability{}
+- Create a has-a relationship between the Base Class and drive_capability interface and let the subclass decide
 which type of drive_capability they want using constructor injection

@@ -6,10 +6,10 @@ this base class out of these N subclasses say we have 2 subclasses i and j that 
 of the function F say F' then their will be code repitition we have to repeat same function in both i and j.
 
 ### EXAMPLE
-BASE CLASS -> Class Vehicle has a drive() function
-SUB CLASS_1 -> Class Bike1 inherits Vehicle and needs the normal drive() function as implemented in Vehicle
-SUB CLASS_2 -> Class Bike2 inherits Vehicle and needs the off_road drive() function
-SUB CLASS_3 -> Class Bike3 inherits Vehicle and needs the off_road drive() function same as Bike2
+- BASE CLASS -> Class Vehicle has a drive() function
+- SUB CLASS_1 -> Class Bike1 inherits Vehicle and needs the normal drive() function as implemented in Vehicle
+- SUB CLASS_2 -> Class Bike2 inherits Vehicle and needs the off_road drive() function
+- SUB CLASS_3 -> Class Bike3 inherits Vehicle and needs the off_road drive() function same as Bike2
 
 ## SOLUTION
 - Create a interface drive_capability which has a function drive()

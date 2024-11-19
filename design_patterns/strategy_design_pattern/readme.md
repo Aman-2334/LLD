@@ -11,7 +11,7 @@ SUB CLASS_1 -> Class Bike1 inherits Vehicle and needs the normal drive() functio
 SUB CLASS_2 -> Class Bike2 inherits Vehicle and needs the off_road drive() function
 SUB CLASS_3 -> Class Bike3 inherits Vehicle and needs the off_road drive() function same as Bike2
 
-## SOLUTIION
+## SOLUTION
 Create a interface drive_capability which has a function drive()
 Make for any new drive capability make a class which implements drive capability interface
 ex.
